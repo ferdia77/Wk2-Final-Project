@@ -1,0 +1,25 @@
+
+
+nav {
+    display: flex;
+    padding-top: 32px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.nav__logo {
+    width: 20%;
+    height: 20%;
+}
+
+.img {
+    width: 20%;
+    height: 20%;
+}
