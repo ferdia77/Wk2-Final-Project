@@ -82,8 +82,13 @@ nav {
     font-size: 18px;
 }
 
+.input__email {
+    border-radius: 20px;
+}
+
 .header__email--btn {
     background-color: blue;
+    border-radius: 20px;
     color: white;
 }
 
