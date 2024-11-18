@@ -10,6 +10,7 @@ nav {
 
 .container {
     padding: 80px 0;
+    
 }
 
 .row {
@@ -17,6 +18,7 @@ nav {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
+    align-items: center;
 }
 
 .nav__logo--treact {
@@ -146,7 +148,17 @@ nav {
 
 /* FEATURES */
 
+#features {
+    position: relative;
+}
 
+section {
+    display: block;
+}
+
+.row__wrapper {
+    align-items: center;
+}
 
 
 h4 {
@@ -177,4 +189,14 @@ h2 {
     font-size: 65px;
     font-weight: 700;
     margin-bottom: 30px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.feature {
+    width: calc(100% / 3);
 }
