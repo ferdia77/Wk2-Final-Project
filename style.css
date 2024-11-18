@@ -152,6 +152,11 @@ nav {
     position: relative;
 }
 
+.row__narrow {
+    display: flex;
+    justify-content: center;
+}
+
 section {
     display: block;
 }
