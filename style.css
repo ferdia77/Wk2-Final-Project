@@ -152,13 +152,18 @@ nav {
     position: relative;
 }
 
+
 .row__narrow {
     display: flex;
-    justify-content: center;
 }
+
 
 section {
     display: block;
+}
+
+.section__para {
+    align-items: center;
 }
 
 .row__wrapper {
@@ -175,6 +180,7 @@ h4 {
     font-weight: bold;
     unicode-bidi: isolate;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .section__tag {
@@ -183,6 +189,7 @@ h4 {
     letter-spacing: 1.6px;
     font-weight: 700;
     text-transform: uppercase;
+    align-items: center;
 }
 
 h2 {
@@ -194,6 +201,7 @@ h2 {
     font-size: 65px;
     font-weight: 700;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .features {
@@ -204,4 +212,21 @@ h2 {
 
 .feature {
     width: calc(100% / 3);
+}
+
+.feature__row {
+    display: flex;
+    align-items: flex-start;
+    padding: 32px 24px;
+}
+
+.feature__img--wrapper {
+    display: flex;
+    padding: 20px;
+    border: 1px solid #e5e7eb;
+    border-radius: 500px;
+}
+
+.feature__title {
+
 }
