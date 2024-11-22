@@ -387,8 +387,24 @@ button {
     display: flex;
 }
 
+.value__title--wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.value {
+    display: flex;
+    flex-direction: column;
+}
+
 .values__description, .values__img {
     width: 50%;
+}
+
+.values__img {
+    padding-top: 200px;
+    width: 600px;
+    height: 600px;
 }
 
 .value__title {
@@ -415,4 +431,14 @@ button {
     letter-spacing: 0.025em;
 }
 
+.value__img--wrapper {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.value__img--wrapper {
+    width: 36px;
+    height: 36px;
+}
