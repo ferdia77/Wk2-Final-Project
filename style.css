@@ -29,6 +29,7 @@ div {
 
 #landing .row__wrapper {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .nav__logo--treact {
@@ -88,12 +89,21 @@ div {
     width: 40%;
 }
 
+.header__img--wrapper {
+    width: 60%;
+}
+
 .header__email {
     max-width: 448px;
     width: 100%;
     position: relative; 
     border-radius: 20px;
     padding-bottom: 64px;
+}
+
+.input__email {
+    padding-left: 40px;
+    font-size: 18px;
 }
 
 .header__customers--title {
@@ -175,6 +185,7 @@ section {
 
 #features .section__para {
     text-align: center;
+    max-width: 576px;
 }
 
 .section__para {
@@ -243,9 +254,24 @@ h2 {
     width: calc(100% / 3);
 }
 
+.feature__row {
+    display: flex;
+    align-items: flex-start;
+    padding: 32px 24px;
+}
+
+.feature__row--wrapper {
+    display: flex;
+}
+
+.feature__text {
+    margin-top: 8px;
+    margin-left: 16px;
+}
+
 .feature__img {
     width: 24px;
-    height: 24px; 
+    height: 24px;
 }
 
 .feature__para {
@@ -258,10 +284,17 @@ img {
 
 }
 
-.feature__row {
-    display: flex;
-    align-items: flex-start;
-    padding: 32px 24px;
+
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
 }
 
 .feature__img--wrapper {
@@ -269,6 +302,16 @@ img {
     padding: 20px;
     border: 1px solid #e5e7eb;
     border-radius: 500px;
+    margin-top: 65px;
+}
+
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    unicode-bidi: isolate;
 }
 
 * {
