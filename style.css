@@ -216,15 +216,25 @@ h4 {
   text-align: center;
 }
 
-.section__tag {
+#features .section__tag {
   font-size: 16px;
   color: #6415ff;
   letter-spacing: 1.6px;
   font-weight: 700;
   text-transform: uppercase;
   text-transform: uppercase;
-  padding-top: 80px;
+  padding-top: 40px;
 }
+
+.section__tag {
+    font-size: 16px;
+    color: #6415ff;
+    letter-spacing: 1.6px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-transform: uppercase;
+    padding-top: 80px;
+  }
 
 h2 {
   display: block;
@@ -440,9 +450,6 @@ button {
 
 .value__para {
   margin-top: 20px;
-}
-
-.value__title {
 }
 
 .value__title--wrapper {
@@ -1207,6 +1214,10 @@ svg {
         max-width: 768px;
      }
 
+     .feature {
+        width: calc(50%);
+     }
+
      .section__title {
         font-size: 36px;
      }
@@ -1268,7 +1279,7 @@ svg {
 
 }
 
-
+/* SMALL PHONES, TABLETS */
 
 @media (max-width: 768px) {
      .quality__description, .quality__img--wrapper, .steps__description,
@@ -1277,4 +1288,193 @@ svg {
         width: 100%;
         max-width: 448px;
      }
+
+     .quality__description, .steps__description, .values__description,
+     .testimonials__description {
+        padding: 0;
+        margin-top: 64px;
+        text-align: center;
+      }
+
+      .steps__img {
+        margin-top: 40px;
+      }
+
+     .features {
+        justify-content: center;
+     }
+
+     .feature {
+        width: auto;
+        max-width: 384px;
+     }
+
+     #quality .row, #values .row {
+        flex-direction: column-reverse;
+     }
+
+     .step {
+        flex-direction: column;
+        align-items: center;
+     }
+
+     #steps .row, #testimonials .row {
+        flex-direction: column;
+        align-items: center;
+     }
+
+     #steps .row__wrapper {
+        flex-direction: column-reverse;
+        align-items: center;
+     }
+
+     #values .row__wrapper {
+        flex-direction: column-reverse;
+     }
+
+     .section__para {
+        font-size: 14px;
+     }
+
+     .value:nth-of-type(1) {
+        margin-right: 0px;
+     }
+
+     .value:nth-child(1), .value:nth-child(2) {
+        margin-top: 40px;
+     }
+
+    .values__list {
+        align-items: center;
+    }
+
+    .footer__columns {
+        justify-content: flex-start;
+    }
+
+    .footer__column {
+        width: calc(100% / 3);
+    }
+
+    .footer__bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .footer__copyright, .footer__socials {
+        margin-bottom: 24px;
+    }
+
+    .footer__socials {
+        margin-left: 0px;
+    }
+
+    .footer__social--link:first-child {
+        margin-left: 0px;
+    }
+
+
+}
+
+
+@media (max-width: 640px) {
+    .footer__columns {
+        justify-content: center;
+    }
+
+     .footer__column {
+        width: auto;
+        padding: 0 16px;
+        text-align: center;
+        align-items: center;
+     }
+
+     .nav__logo {
+        margin: 8px;
+     }
+
+     .nav__logo--title {
+        margin-top: 8px;
+     }
+
+     .container {
+        padding: 80px 0;
+     }
+
+
+     .header__email {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+     }
+
+     .header__customers--title {
+        font-size: 14px;
+        letter-spacing: 0.05em;
+     }
+
+     #features .section__title, #pricing .section__title {
+        font-size: 36px;
+     }
+
+     .steps__list {
+        margin-top: 48px;
+     }
+
+     #steps .section__title {
+        margin: 16px 0 0 0 ;
+        line-height: 1.25;
+     }
+
+     .section__title {
+        font-size: 30px;
+     }
+
+     .testimonial__para {
+        margin-bottom: 32px;
+     }
+
+     .testimonial__bottom {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 4px;
+     }
+
+     .testimonial__bottom--profile  {
+        flex-direction: column;
+        align-items: center;
+     }
+
+     .testimonial__buttons {
+        margin-top: 32px;
+     }
+
+     .start__title {
+        font-size: 24px;
+     }
+
+     .start__buttons {
+        flex-direction: column;
+     }
+
+     .start__button:nth-child(1) {
+        margin-right: 0;
+     }
+
+     .start__button:nth-child(2) {
+        margin-top: 16px;
+     }
+
+     #landing .btn__sign {
+        margin-left: 12px;
+        margin-bottom: 16px;
+     }
+
+     .footer__copyright {
+        font-size: 14px;
+        text-align: center;
+        line-height: 1.5;
+     }
+
 }
