@@ -157,7 +157,6 @@ div {
 }
 
 .header__img {
-  padding-left: 200px;
   height: 640px;
 }
 
@@ -422,9 +421,7 @@ button {
   display: flex;
 }
 
-#values .section__para {
-  margin-top: 40px;
-}
+
 
 .value {
   display: flex;
@@ -451,8 +448,7 @@ button {
 
 .values__img {
   padding-top: 200px;
-  width: 600px;
-  height: 900px;
+  
 }
 
 .value__para {
@@ -527,9 +523,6 @@ button {
   margin-top: 40px;
 }
 
-.values__btn--position {
-    margin-left: 150px;
-}
 
 /* PRICING */
 
@@ -1259,15 +1252,10 @@ svg {
         margin-left: 80px;
         justify-content: center;
      }
-
-     .values__btn--position {
-      margin-left: 60px;
-     } 
   
 
      .values__list {
         flex-direction: column;
-        max-width: 320px;
      }
 
      .values__img {
@@ -1389,9 +1377,6 @@ svg {
         justify-content: center;;
      }
 
-     .values__btn--position {
-      margin-left: 320px;
-     } 
 
      .section__para {
         font-size: 14px;
@@ -1487,10 +1472,7 @@ svg {
         font-size: 36px;
      }
 
-     .values__btn--position {
-      margin-left: 200px;
-     } 
-
+     
      .steps__list {
         margin-top: 48px;
      }
