@@ -452,7 +452,7 @@ button {
 .values__img {
   padding-top: 200px;
   width: 600px;
-  height: 600px;
+  height: 900px;
 }
 
 .value__para {
@@ -528,7 +528,7 @@ button {
 }
 
 .values__btn--position {
-    margin-left: 110px;
+    margin-left: 150px;
 }
 
 /* PRICING */
@@ -1257,11 +1257,22 @@ svg {
 
      #values .row {
         margin-left: 80px;
+        justify-content: center;
      }
+
+     .values__btn--position {
+      margin-left: 60px;
+     } 
+  
 
      .values__list {
         flex-direction: column;
         max-width: 320px;
+     }
+
+     .values__img {
+      width: 50%;
+      max-width: 400px;
      }
 
      .value:nth-child(1), .value:nth-child(2) {
@@ -1295,6 +1306,7 @@ svg {
 
      .testimonials__img {
         margin-left: 20px;
+        width: 40%;
      }
 
      .start__title {
@@ -1365,7 +1377,7 @@ svg {
      }
 
      #steps .row__wrapper {
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: center;
      }
 
@@ -1376,6 +1388,10 @@ svg {
      .value__title--wrapper {
         justify-content: center;;
      }
+
+     .values__btn--position {
+      margin-left: 320px;
+     } 
 
      .section__para {
         font-size: 14px;
@@ -1408,8 +1424,8 @@ svg {
 
 
     .footer__copyright, .footer__socials {
-        margin-bottom: 24px;
-    }
+      margin-bottom: 10px;
+  }
 
     .footer__socials {
         margin-left: 0px;
@@ -1449,11 +1465,17 @@ svg {
         padding: 80px 0;
      }
 
+     #values .row {
+      margin-left: 10px;
+     }
+
 
      .header__email {
         display: flex;
         flex-direction: column;
         height: auto;
+        position: relative;
+        width: 100%;
      }
 
      .header__customers--title {
@@ -1464,6 +1486,10 @@ svg {
      #features .section__title, #pricing .section__title {
         font-size: 36px;
      }
+
+     .values__btn--position {
+      margin-left: 200px;
+     } 
 
      .steps__list {
         margin-top: 48px;
@@ -1483,6 +1509,10 @@ svg {
      }
 
      .testimonial__bottom {
+      justify-content: center;
+     }
+
+     .testimonial__bottom--profile-wrapper {
         flex-direction: column;
         align-items: center;
         padding-top: 4px;
@@ -1502,6 +1532,7 @@ svg {
      }
 
      .start__buttons {
+      display: flex;
         flex-direction: column;
      }
 
